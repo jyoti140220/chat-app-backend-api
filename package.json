@@ -1,16 +1,25 @@
+
 {
-  "name": "chat-backend",
+  "name": "chat-app-backend-api",
   "version": "1.0.0",
+  "description": "Chat backend API using Node.js, Express, TypeScript, MySQL and Firebase Firestore",
   "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "express",
+    "mysql",
+    "firebase",
+    "firestore",
+    "chat-api"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "Chat backend: PostgreSQL (users/chats) + Firestore (messages/read receipts)",
   "dependencies": {
     "dotenv": "^18.0.8",
     "express": "^4.22.3",
