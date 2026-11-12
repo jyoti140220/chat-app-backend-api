@@ -63,7 +63,7 @@ chat-app-backend-api/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/jyoti140220/chat-app-backend-api.git
 cd chat-app-backend-api
 ```
 
